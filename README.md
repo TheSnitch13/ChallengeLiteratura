@@ -1,10 +1,8 @@
 # 📚 Challenge Literatura
-
 Aplicación de consola desarrollada en **Java con Spring Boot** que permite buscar libros utilizando la **API de Gutendex**, almacenar la información en una **base de datos PostgreSQL** y consultar distintos datos literarios desde un menú interactivo.
 
 
 # 🚀 Funcionalidades
-
 La aplicación permite realizar las siguientes operaciones desde un menú en consola:
 
 1️⃣ **Buscar libro por título**
@@ -32,7 +30,6 @@ La aplicación permite realizar las siguientes operaciones desde un menú en con
 
 
 # 🛠️ Tecnologías utilizadas
-
 * **Java 17**
 * **Spring Boot**
 * **Spring Data JPA**
@@ -44,7 +41,6 @@ La aplicación permite realizar las siguientes operaciones desde un menú en con
 
 
 # 🌐 API utilizada
-
 El proyecto utiliza la API pública:
 
 **Gutendex**
@@ -60,7 +56,6 @@ Esta API proporciona información de libros del catálogo de **Project Gutenberg
 
 
 # 🗄️ Base de datos
-
 El proyecto utiliza **PostgreSQL** para almacenar:
 
 * Libros
@@ -70,27 +65,22 @@ El proyecto utiliza **PostgreSQL** para almacenar:
 ---
 
 # ⚙️ Configuración del proyecto
-
 ### 1️⃣ Clonar el repositorio
 
 ```bash
 git clone https://github.com/TheSnitch13/ChallengeLiteratura.git
 ```
-
 ---
 
 ### 2️⃣ Crear base de datos en PostgreSQL
-
 Ejemplo:
 
 ```sql
 CREATE DATABASE literatura;
 ```
-
 ---
 
 ### 3️⃣ Configurar `application.properties`
-
 Ubicado en:
 
 ```
@@ -108,11 +98,9 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
 ```
-
 ---
 
 ### 4️⃣ Ejecutar la aplicación
-
 Puedes ejecutar el proyecto desde tu IDE (IntelliJ o Eclipse) ejecutando la clase:
 
 ```
@@ -124,11 +112,9 @@ o desde terminal:
 ```bash
 mvn spring-boot:run
 ```
-
 ---
 
 # 📂 Estructura del proyecto
-
 ```
 src
  └─ main
@@ -151,11 +137,9 @@ src
                  ├─ ConsumoAPI.java
                  └─ ConvierteDatos.java
 ```
-
 ---
 
 # 💡 Aprendizajes del proyecto
-
 Este proyecto permitió practicar:
 
 * Consumo de APIs REST
@@ -167,9 +151,7 @@ Este proyecto permitió practicar:
 * Uso de **Streams y Optional**
 
 ---
-
 # 👨‍💻 Autor
-
 **Alan Herrera**
 
 GitHub:
